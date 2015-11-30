@@ -3,6 +3,8 @@
  */
 
 var twitter = require('twitter');
+var http = require('http')
+var port = process.env.PORT || 1337;
 
 var client = new twitter({
     consumer_key: 'YWI08izs4KPKAcbhZPl94CjFL',
